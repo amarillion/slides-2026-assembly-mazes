@@ -14,17 +14,17 @@ Martijn van Iersel
 
 ---
 layout: image
-image: ./images/zelda-bow-labyrinth.jpg
+image: /zelda-bow-labyrinth.jpg
 transition: slide-down
 ---
 
 <!-- Lomei labyrint island -->
 
-<!-- <img src="./images/zelda-bow-labyrinth.jpg"> -->
+<!-- <img src="/zelda-bow-labyrinth.jpg"> -->
 
 ---
 layout: image-left
-image: ./images/zelda2-maze-island.png
+image: /zelda2-maze-island.png
 backgroundSize: contain
 transition: slide-right
 ---
@@ -37,7 +37,7 @@ Zelda II: The Adventure of Link
 
 ---
 layout: image-left
-image: ./images/squares.excalidraw.svg
+image: /squares.excalidraw.svg
 backgroundSize: contain
 transition: fade
 ---
@@ -48,7 +48,7 @@ transition: fade
 
 ---
 layout: image-left
-image: ./images/square-grid.excalidraw.svg
+image: /square-grid.excalidraw.svg
 backgroundSize: contain
 transition: fade
 ---
@@ -60,7 +60,7 @@ transition: fade
 
 ---
 layout: image-left
-image: ./images/square-grid-msp.excalidraw.svg
+image: /square-grid-msp.excalidraw.svg
 backgroundSize: contain
 transition: fade-out
 ---
@@ -87,7 +87,7 @@ transition: slide-right
 
 ---
 layout: image-left
-image: ./images/zelda2-maze-island-loop-marked.png
+image: /zelda2-maze-island-loop-marked.png
 backgroundSize: contain
 transition: slide-down
 ---
@@ -98,7 +98,7 @@ transition: slide-down
 
 ---
 layout: image-left
-image: ./images/mazes-for-programmers-book-cover.jpg
+image: /mazes-for-programmers-book-cover.jpg
 transition: fade-out
 ---
 
@@ -106,7 +106,7 @@ transition: fade-out
 
 ---
 layout: image
-image: ./images/topdesk-maze.png
+image: /topdesk-maze.png
 backgroundSize: contain
 transition: fade-out
 ---
@@ -121,7 +121,7 @@ transition: fade-out
 
 # Object Oriented programming
 
-<img src="./images/oop.excalidraw.svg" v-drag="[236,107,458,355]"/>
+<img src="/oop.excalidraw.svg" v-drag="[236,107,458,355]"/>
 
 ---
 transition: fade-out
@@ -129,11 +129,11 @@ transition: fade-out
 
 # Functional programming
 
-<img src="./images/functional.excalidraw.svg" v-drag="[137,198,652,157]"/>
+<img src="/functional.excalidraw.svg" v-drag="[137,198,652,157]"/>
 
 ---
 layout: image
-image: ./images/topdesk-maze-linkedin-collapsed.png
+image: /topdesk-maze-linkedin-collapsed.png
 backgroundSize: contain
 transition: fade-out
 ---
@@ -151,7 +151,7 @@ transition: fade
 
 * **Any grid** can be turned into a graph
 
-<img src="./images/square-and-triangular-grid.excalidraw.svg">
+<img src="/square-and-triangular-grid.excalidraw.svg">
 
 ---
 transition: slide-left
@@ -161,21 +161,21 @@ transition: slide-left
 
 * Maze algorithms **just work**!
 
-<img src="./images/square-and-triangular-grid-msp.excalidraw.svg">
+<img src="/square-and-triangular-grid-msp.excalidraw.svg">
 
 ---
 transition: slide-down
 ---
 
-<img src="./images/topdesk-logo.png" v-drag="[209,41,517,81]">
+<img src="/topdesk-logo.png" v-drag="[209,41,517,81]">
 
 <SlidevVideo autoplay v-drag="[214,187,525,316]" autoreset="slide">
-  <source src="./images/robin-2021-11-14.webm" type="video/webm"/>
+  <source src="/robin-2021-11-14.webm" type="video/webm"/>
 </SlidevVideo>
 
 ---
 layout: image
-image: ./images/creative-coding-workshop.jpg
+image: /creative-coding-workshop.jpg
 backgroundSize: contain
 transition: slide-right
 ---
@@ -191,7 +191,7 @@ transition: fade-out
 # Genuary 2026: Grid in grid
 
 <SlidevVideo autoplay v-drag="[255,108,513,395]"  autoreset="slide">
-  <source src="./images/Screencast from 2026-02-01 16-35-01.mp4" type="video/mp4"/>
+  <source src="/Screencast from 2026-02-01 16-35-01.mp4" type="video/mp4"/>
 </SlidevVideo>
 
 ---
@@ -237,7 +237,7 @@ transition: fade-out
 
 ---
 layout: image
-image: ./images/xmas-card-2022.png
+image: /xmas-card-2022.png
 transition: slide-right
 ---
 
@@ -272,7 +272,7 @@ transition: fade-out
 
 ---
 layout: image
-image: ./images/reddit-post.png
+image: /reddit-post.png
 backgroundSize: contain
 transition: fade-out
 ---
@@ -286,7 +286,7 @@ transition: fade-out
 ---
 
 <SlidevVideo autoplay v-drag="[153,29,659,508]" autoreset="slide">
-  <source src="./images/capylandia.webm" type="video/webm"/>
+  <source src="/capylandia.webm" type="video/webm"/>
 </SlidevVideo>
 
 <StickyNote color="pink-light" textAlign="left" width="180px" title="Use #6" v-drag="[740,75,175,102,15]">
@@ -300,7 +300,7 @@ transition: fade-out
 # Graphs Everywhere
 
 <SlidevVideo autoplay autoreset="slide" v-drag="[-2,87,984,413]">
-  <source src="./images/game3-1080p.mp4" type="video/mp4"/>
+  <source src="/game3-1080p.mp4" type="video/mp4"/>
 </SlidevVideo>
 
 <StickyNote color="blue-light" textAlign="left" width="180px" title="Food Chain Farm" v-drag="[25,446,185,81]">
@@ -330,7 +330,7 @@ Testing a graph based game engine
 transition: slide-left
 ---
 
-<img src="./images/treasure-map.png" v-drag="[56,51,822,433]">
+<img src="/treasure-map.png" v-drag="[56,51,822,433]">
 
 <StickyNote color="pink-light" textAlign="left" width="180px" title="Use #8" v-drag="[740,75,175,102,15]">
 Generate a treasure map
@@ -345,35 +345,35 @@ Puzzle #17<br>
 transition: slide-left
 ---
 
-<img src="./images/jigsaw-p1.svg" v-drag="[56,51,822,433]">
+<img src="/jigsaw-p1.svg" v-drag="[56,51,822,433]">
 
 ---
 transition: slide-left
 ---
 
-<img src="./images/jigsaw-p2.svg" v-drag="[56,51,822,433]">
+<img src="/jigsaw-p2.svg" v-drag="[56,51,822,433]">
 
 ---
 transition: fade
 ---
 
-<img src="./images/jigsaw-p3.svg" v-drag="[56,51,822,433]">
+<img src="/jigsaw-p3.svg" v-drag="[56,51,822,433]">
 
 ---
 transition: fade
 ---
 
-<img src="./images/jigsaw-p4.svg" v-drag="[56,51,822,433]">
+<img src="/jigsaw-p4.svg" v-drag="[56,51,822,433]">
 
 ---
 transition: fade
 ---
 
-<img src="./images/jigsaw-p5.svg" v-drag="[56,51,822,433]">
+<img src="/jigsaw-p5.svg" v-drag="[56,51,822,433]">
 
 ---
 layout: image
-image: ./images/maze-generation-in-minecraft.png
+image: /maze-generation-in-minecraft.png
 transition: fade-out
 ---
 
@@ -422,7 +422,7 @@ Talk about it at meetups and conferences.
 
 ---
 layout: image
-image: ./images/tins_2026_poster-10-basic_banner.png
+image: /tins_2026_poster-10-basic_banner.png
 transition: fade-out
 backgroundSize: contain
 ---
