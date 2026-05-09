@@ -401,7 +401,11 @@ a {
 }
 </style>
 
-<StickyNote color="pink-light" textAlign="left" width="180px" title="Use #10" v-drag="[795,24,175,81,15]">
+<StickyNote color="blue-light" textAlign="left" width="180px" title="These Slides" v-drag="[835,203,128,144,16]">
+<QRCode value="https://amarillion.github.io/slides-2026-assembly-mazes"></QRCode>
+</StickyNote>
+
+<StickyNote color="pink-light" textAlign="left" width="180px" title="Use #10" v-drag="[300,15,175,77,-8]">
 Talk about it at meetups and conferences.
 </StickyNote>
 
