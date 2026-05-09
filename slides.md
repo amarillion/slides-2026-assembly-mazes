@@ -10,6 +10,8 @@ Martijn van Iersel
 
 <svg style="display:inline; color: blue" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M5.202 2.857C7.954 4.922 10.913 9.11 12 11.358c1.087-2.247 4.046-6.436 6.798-8.501C20.783 1.366 24 .213 24 3.883c0 .732-.42 6.156-.667 7.037c-.856 3.061-3.978 3.842-6.755 3.37c4.854.826 6.089 3.562 3.422 6.299c-5.065 5.196-7.28-1.304-7.847-2.97c-.104-.305-.152-.448-.153-.327c0-.121-.05.022-.153.327c-.568 1.666-2.782 8.166-7.847 2.97c-2.667-2.737-1.432-5.473 3.422-6.3c-2.777.473-5.899-.308-6.755-3.369C.42 10.04 0 4.615 0 3.883c0-3.67 3.217-2.517 5.202-1.026"/></svg>&nbsp;@mpvaniersel
 
+<span style="color: teal">Creative Coding | Serious Games | Technical Product Owner @ TOPdesk</span>
+
 ---
 layout: image
 image: ./images/zelda-bow-labyrinth.jpg
@@ -74,8 +76,8 @@ transition: fade-out
 layout: iframe-left
 
 # the web page source
-# url: https://amarillion.github.io/helixgraph/examples/maze/?grid=square&algorithm=recursivebt&ui=hidden
-url: http://localhost:8080/examples/maze/?grid=square&algorithm=recursivebt&ui=hidden&animation=false
+url: https://amarillion.github.io/helixgraph/examples/maze/?grid=square&algorithm=recursivebt&ui=hidden&animation=false
+# url: http://localhost:8080/examples/maze/?grid=square&algorithm=recursivebt&ui=hidden&animation=false
 transition: slide-right
 ---
 
@@ -92,8 +94,7 @@ transition: slide-down
 
 # Not perfect
 
-* Loops
-* No dead ends? Braid maze.
+* because it has loops
 
 ---
 layout: image-left
@@ -166,9 +167,7 @@ transition: slide-left
 transition: slide-down
 ---
 
-# Robin Maze
-
-<img src="./images/topdesk-logo.png" v-drag="[333,13,517,81]">
+<img src="./images/topdesk-logo.png" v-drag="[209,41,517,81]">
 
 <SlidevVideo autoplay v-drag="[214,187,525,316]" autoreset="slide">
   <source src="./images/robin-2021-11-14.webm" type="video/webm"/>
@@ -189,7 +188,7 @@ Bring programmers and non-programmers together with a creative coding workshop
 transition: fade-out
 ---
 
-# Genuary 2025: Grid in grid
+# Genuary 2026: Grid in grid
 
 <SlidevVideo autoplay v-drag="[255,108,513,395]"  autoreset="slide">
   <source src="./images/Screencast from 2026-02-01 16-35-01.mp4" type="video/mp4"/>
@@ -200,7 +199,7 @@ layout: center
 transition: fade-out
 ---
 
-# Maze Algorithms
+# Algorithms
 
 * Recursive Backtracker
 * Prim's
@@ -210,8 +209,8 @@ transition: fade-out
 layout: iframe-left
 
 # the web page source
-# url: https://amarillion.github.io/helixgraph/examples/maze/?grid=square&algorithm=prim_random&ui=hidden&animation=true&color=dist
-url: http://localhost:8080/examples/maze/?grid=square&algorithm=prim_last_node&ui=hidden&animation=true&color=degree
+url: https://amarillion.github.io/helixgraph/examples/maze/?grid=square&algorithm=prim_last_node&ui=hidden&animation=true&color=degree
+# url: http://localhost:8080/examples/maze/?grid=square&algorithm=prim_last_node&ui=hidden&animation=true&color=degree
 transition: fade-out
 ---
 
@@ -225,8 +224,8 @@ transition: fade-out
 layout: iframe-left
 
 # the web page source
-# url: https://amarillion.github.io/helixgraph/examples/maze/?grid=square&algorithm=prim_random&ui=hidden&animation=true&color=dist
-url: http://localhost:8080/examples/maze/?grid=square&algorithm=prim_random&ui=hidden&animation=true&color=degree
+url: https://amarillion.github.io/helixgraph/examples/maze/?grid=square&algorithm=prim_random&ui=hidden&animation=true&color=degree
+# url: http://localhost:8080/examples/maze/?grid=square&algorithm=prim_random&ui=hidden&animation=true&color=degree
 transition: fade-out
 ---
 
@@ -262,8 +261,8 @@ transition: slide-up
 layout: iframe-left
 
 # the web page source
-# url: https://amarillion.github.io/helixgraph/examples/maze/?grid=square&algorithm=prim_random&ui=hidden&animation=true&color=dist
-url: http://localhost:8080/examples/maze/?grid=square&algorithm=kruskal&ui=hidden&animation=true&color=none
+url: https://amarillion.github.io/helixgraph/examples/maze/?grid=square&algorithm=kruskal&ui=hidden&animation=true&color=none
+# url: http://localhost:8080/examples/maze/?grid=square&algorithm=kruskal&ui=hidden&animation=true&color=none
 transition: fade-out
 ---
 
@@ -295,42 +294,82 @@ Procedural level generation
 </StickyNote>
 
 ---
-layout: image
-image: ./images/tins_2026_poster-10-basic_banner.png
-transition: slide-right
-backgroundSize: contain
----
-
----
 transition: fade-out
 ---
 
-Food chain farm ecosystem game
+# Graphs Everywhere
 
----
-transition: fade-out
----
+<SlidevVideo autoplay autoreset="slide" v-drag="[-2,87,984,413]">
+  <source src="./images/game3-1080p.mp4" type="video/mp4"/>
+</SlidevVideo>
 
-<StickyNote color="pink-light" textAlign="left" width="180px" title="Use #7" v-drag="[740,75,175,102,15]">
-Testing a graph based engine
+<StickyNote color="blue-light" textAlign="left" width="180px" title="Food Chain Farm" v-drag="[25,446,185,81]">
+helixsoft.itch.io/food-chain-farm
 </StickyNote>
 
 ---
+# layout: iframe-right
 transition: fade-out
+# url: https://amarillion.github.io/helixgraph/examples/phaser3/
+# class: phaser3-example
 ---
+
+<style>
+iframe {
+  zoom: 0.5;
+}
+</style>
+
+<iframe id="frame" class="w-full h-full" src="https://amarillion.github.io/helixgraph/examples/phaser3/"></iframe>
+
+<StickyNote color="pink-light" textAlign="left" width="180px" title="Use #7" v-drag="[36,58,175,102,-48]">
+Testing a graph based game engine
+</StickyNote>
+
+---
+transition: slide-left
+---
+
+<img src="./images/treasure-map.png" v-drag="[56,51,822,433]">
 
 <StickyNote color="pink-light" textAlign="left" width="180px" title="Use #8" v-drag="[740,75,175,102,15]">
 Generate a treasure map
 </StickyNote>
 
-Problem: puzzle pieces need to have at least one connection to the rest
-Solution: this is actually a minimum spanning tree problem
+<StickyNote color="blue-light" textAlign="left" width="180px" title="i18n-puzzles.com" v-drag="[25,446,185,81]">
+Puzzle #17<br>
+╳ marks the spot
+</StickyNote>
 
 ---
-layout: image
-image: ./images/i18n-puzzles-banner.png
-transition: fade-out
+transition: slide-left
 ---
+
+<img src="./images/jigsaw-p1.svg" v-drag="[56,51,822,433]">
+
+---
+transition: slide-left
+---
+
+<img src="./images/jigsaw-p2.svg" v-drag="[56,51,822,433]">
+
+---
+transition: fade
+---
+
+<img src="./images/jigsaw-p3.svg" v-drag="[56,51,822,433]">
+
+---
+transition: fade
+---
+
+<img src="./images/jigsaw-p4.svg" v-drag="[56,51,822,433]">
+
+---
+transition: fade
+---
+
+<img src="./images/jigsaw-p5.svg" v-drag="[56,51,822,433]">
 
 ---
 layout: image
@@ -348,38 +387,24 @@ youtu.be/zbXKcDVV4G0
 </StickyNote>
 
 ---
-transition: fade-out
----
-
-<StickyNote color="pink-light" textAlign="left" width="180px" title="Use #10" v-drag="[740,75,175,102,15]">
-Talk about it at meetups and conferences.
-</StickyNote>
-
-QR Code
-<QRCode value="https://amarillion.github.io/helixgraph/examples/maze/" :size="200" render-as="svg" />
-
-Martijn van Iersel
-
-<svg style="display:inline; color: blue" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M5.202 2.857C7.954 4.922 10.913 9.11 12 11.358c1.087-2.247 4.046-6.436 6.798-8.501C20.783 1.366 24 .213 24 3.883c0 .732-.42 6.156-.667 7.037c-.856 3.061-3.978 3.842-6.755 3.37c4.854.826 6.089 3.562 3.422 6.299c-5.065 5.196-7.28-1.304-7.847-2.97c-.104-.305-.152-.448-.153-.327c0-.121-.05.022-.153.327c-.568 1.666-2.782 8.166-7.847 2.97c-2.667-2.737-1.432-5.473 3.422-6.3c-2.777.473-5.899-.308-6.755-3.369C.42 10.04 0 4.615 0 3.883c0-3.67 3.217-2.517 5.202-1.026"/></svg>&nbsp;@mpvaniersel
-
-<PoweredBySlidev mt-10 />
-
-
----
 transition: slide-up
 layout: two-cols-header
 ---
 
-# Links
+# That's all folks
+
+:: left ::
 
 <style>
 a { 
   color: teal; 
 }
 </style>
-::left::
 
-* These slides... ##TODO##
+<StickyNote color="pink-light" textAlign="left" width="180px" title="Use #10" v-drag="[795,24,175,81,15]">
+Talk about it at meetups and conferences.
+</StickyNote>
+
 * Mazes for programmers<br>http://www.mazesforprogrammers.com/
 * HelixGraph Github repo<br>https://github.com/amarillion/helixgraph/
 * HelixGraph npm library<br>https://www.npmjs.com/package/@amarillion/helixgraph
@@ -390,7 +415,14 @@ a {
 
 * Snowflake maze<br>https://amarillion.github.io/snowflake-maze/
 * Food Chain Farm (ecosystem game)<br>https://helixsoft.itch.io/food-chain-farm
-* Fole & Raul (generated dungeon game)<br>https://tins.amarillion.org/entry/283
+* Fole & Raul (procedural dungeon game)<br>https://tins.amarillion.org/entry/283
 * TINS Game Jam<br>https://tins.amarillion.org
-* Internationalization puzzles (for programmers)<br>https://i18n-puzzles.com/
-* @mpvaniersel on bluesky<br>
+* Internationalization puzzles (with Treasure Map)<br>https://i18n-puzzles.com/
+* <svg style="display:inline; color: blue" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M5.202 2.857C7.954 4.922 10.913 9.11 12 11.358c1.087-2.247 4.046-6.436 6.798-8.501C20.783 1.366 24 .213 24 3.883c0 .732-.42 6.156-.667 7.037c-.856 3.061-3.978 3.842-6.755 3.37c4.854.826 6.089 3.562 3.422 6.299c-5.065 5.196-7.28-1.304-7.847-2.97c-.104-.305-.152-.448-.153-.327c0-.121-.05.022-.153.327c-.568 1.666-2.782 8.166-7.847 2.97c-2.667-2.737-1.432-5.473 3.422-6.3c-2.777.473-5.899-.308-6.755-3.369C.42 10.04 0 4.615 0 3.883c0-3.67 3.217-2.517 5.202-1.026"/></svg>&nbsp;@mpvaniersel
+
+---
+layout: image
+image: ./images/tins_2026_poster-10-basic_banner.png
+transition: fade-out
+backgroundSize: contain
+---
