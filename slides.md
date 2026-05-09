@@ -24,7 +24,7 @@ transition: slide-down
 
 ---
 layout: image-left
-image: /zelda2-maze-island.png
+image: /zelda2-maze-island.jpg
 backgroundSize: contain
 transition: slide-right
 ---
@@ -87,7 +87,7 @@ transition: slide-right
 
 ---
 layout: image-left
-image: /zelda2-maze-island-loop-marked.png
+image: /zelda2-maze-island-loop-marked.jpg
 backgroundSize: contain
 transition: slide-down
 ---
@@ -373,7 +373,7 @@ transition: fade
 
 ---
 layout: image
-image: /maze-generation-in-minecraft.png
+image: /maze-generation-in-minecraft.jpg
 transition: fade-out
 ---
 
